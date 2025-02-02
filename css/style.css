@@ -54,3 +54,9 @@ ul::after {
 .custom-navbar {
   width: 10%; /* Make the navbar take the full width */
 }
+
+.full-width-img {
+    width: 100%;
+    height: auto; 
+    display: block; 
+}
