@@ -56,7 +56,7 @@ ul::after {
 }
 
 .full-width-img {
-    width: 150%;
+    width: 100vw;
     height: auto; 
     display: block; 
 }
@@ -66,4 +66,5 @@ ul::after {
     padding: 0;
     display: flex;
     justify-content: center;
+  
 }
