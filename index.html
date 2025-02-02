@@ -42,6 +42,37 @@
         line-height: 40px; /* Vertically align text to match the height */
         font-size: 30px;       /* Increase font size */
     }
+    
+Your image might not be stretching across the full width of the website due to Bootstrap constraints or other styles applied to the img or section elements. Try the following fixes:
+
+✅ Final Fix: Enforce Full Width
+1️⃣ Modify Your CSS
+Add the following to your <style> section:
+
+css
+Copy
+Edit
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+#logo {
+    width: 100vw; /* Ensure full viewport width */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center image horizontally if needed */
+}
+
+.full-width-img {
+    width: 100vw; /* Forces image to take full screen width */
+    height: 300px; /* Adjust height as needed */
+    object-fit: cover; /* Prevents distortion and ensures it covers the height */
+    display: block;
+}
         
 
      </style>
@@ -71,7 +102,7 @@
      </nav>
 
        <!-- Logo -->
-   <section id="logo" style="width: 100%; padding: 0; margin: 0;">
+   <section id="logo">
     <img src="img/Contact.png" class="full-width-img">
    </section>
  
