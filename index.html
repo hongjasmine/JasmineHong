@@ -1,231 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jasmine Hong | Data Science</title>
 
- <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Welcome!</title>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-     
-     <style>
-         body {
-             text-align: center;
-             font-family: 'Helvetica', sans-serif;
-             background-image: url('img/background.jpeg'); 
-             background-size: cover; 
-             background-position: center; 
-             background-repeat: no-repeat; 
-             color: white; 
-             overflow-x: hidden; 
-         }
-         .story-content {
-             font-size: 40px;
-         }
-         .section-heading {
-            font-size: 100px;  /* Uniform heading size */
-            color: white;  /* Heading text color */
-            margin-bottom: 80px; /* Space below headings */
-        }
-         section {
-             padding: 100px 50px;
-    
-         }  
-         h1, h4 {
-             color: white; 
-         }
-         .custom-navbar {
-        padding: 20px 0; /* Add padding to increase thickness */
-        height: 50px;    /* Set a fixed height */
-    }
-    .navbar-brand, .nav-link {
-        line-height: 40px; /* Vertically align text to match the height */
-        font-size: 30px;       /* Increase font size */
-    }
-    
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow-x: hidden; /* Prevents horizontal scrolling */
-}
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
-#logo {
-    width: 100vw; /* Ensure full viewport width */
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center; /* Center image horizontally if needed */
-}
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
-.full-width-img {
-    width: 100vw;
-    height: 470px; /* Adjust height as needed */
-    object-fit: cover; 
-    display: block;
-}
-        
-
-     </style>
- </head>
- <body>
-     <!-- Navigation Bar -->
-     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-         <div class="container-fluid">
-             <a class="navbar-brand" href="#">Welcome!</a>
-             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-             </button>
-             <div class="collapse navbar-collapse" id="navbarNav">
-                 <ul class="navbar-nav ms-auto">
-                     <li class="nav-item">
-                         <a class="nav-link" href="#resume">Resume</a>
-                     </li>
-                     <li class="nav-item">
-                         <a class="nav-link" href="#projects">Projects</a>
-                     </li>
-                     <li class="nav-item">
-                         <a class="nav-link" href="#contact">Contact</a>
-                     </li>
-                 </ul>
-             </div>
-         </div>
-     </nav>
-
-       <!-- Logo -->
-   <section id="logo">
-    <img src="img/Contact.png" class="full-width-img">
-   </section>
- 
-     <!-- Welcome Section -->
-  
-    <section id="welcome">
-    <div class="container">
-        <div class="row align-items-center">  
-         
-            <!-- Left Column: Two Images -->
-         
-            <div class="col-md-6">
-                <div class="d-flex">
-                <img src="img/me.jpg" class="img-fluid mb-3" alt="Image 1" width="300">
-                <img src="img/IMG_8338.png" class="img-fluid custom-height" alt="Image 2" width="300" style="height: 370px;">
-            </div>
-
-             <p class="image-text mt-3">
-         <p style="font-size: 20px;"><strong>University of California,San Diego</strong></p>
-         <p style="font-size: 20px;"><strong>Data Science with Business Economics concentration (Sept.2022- June 2026)</strong></p>
-         <p style="font-size: 20px;">Linkedin:
-          <a href="https://www.linkedin.com/in/hongjasmine/" target="_blank" style="color:black;">hongljasmine</a>
-        </p>
-
-
-
-              
-             </p>
-            </div>
-
-            
-            <!-- Right Column: Text -->
-             <div class="col-md-6 d-flex align-items-center">
-              <p class="large-text m-0"> My name is <span style="font-weight: bold;font-size: 30px;">Jasmine Hong</span>!<br>
-I am passionate about leveraging my technical background to to drive business decisions! I have successfully completed data analytics and data science projects, including a Deloitte Data Science mentorship, where I designed a five-bracket reward system, and a Beats by Dre externship, where I conducted consumer insights analysis!
-<br>
-<br>
-Currently, in my Product Management Club at UC San Diego, I am collaborating with a team of students at the startup Binary Labs, and the creators of Dexteria, a health and wellness app designed to enhance motor skills and cognitive development. In this role, I leverage my analytical skills, Tableau, and Google Analytics to optimize app functionality, evaluate market positioning, and generate data-driven insights that enhance user experience and promote better health outcomes.
-<br>
-
-Outside of working on data projects, I love creating short lifestyle videos, which let me blend creativity and storytelling—much like building models in data science, where raw data is shaped into meaningful narratives. <br>
-I’m excited to connect with fellow technology professionals and explore new opportunities for growth and development. Feel free to reach out!
-                     </p>
-            </div>
-        </div>
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-name">Jasmine Hong</div>
+    <div class="nav-links">
+      <a href="#internships">Experience</a>
+      <a href="assets/Jasmine_Hong_Resume.pdf">Resume</a>
+      <a href="https://github.com/your-username">GitHub</a>
+      <a href="https://linkedin.com/in/your-link">LinkedIn</a>
     </div>
-</section>
+  </nav>
 
-
-  
-  <section id="skills-framework">
-    <h2>Skills & Frameworks</h2>
-    <p class="large-text">
-        <strong>Programming Languages:</strong> Java, Python, PostgreSQL, D3.js <br>
-        <strong>Tools & Frameworks:</strong> AWS,Jupyter Notebook, IntelliJ, Tableau, Pandas, Svelte, D3.js, GitHub, HTML,Microsoft Office Suite <br>
-        <strong>Python Libraries:</strong> Pandas, NumPy, Scikit-learn, Plotly, NLTK, Seaborn <br>
-        <strong>Databases:</strong> SQL, MySQL <br>
-        <strong>Machine Learning:</strong> Linear Regression, Decision Trees, Random Forests, Clustering <br>
-        <strong>Statistical Analysis:</strong> Exploratory Data Analysis, Hypothesis Testing, Regression Analysis, Bivariate & Univariate Analysis, Time Series Analysis <br>
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Hi, I’m Jasmine 👋</h1>
+    <p class="subtitle">
+      Data Science student at UC San Diego<br/>
+      Data • Engineering • Storytelling
     </p>
-</section>
 
- 
- 
-     <!-- Projects Section -->
-     <section id="projects">
-      <div class="container mt-10">
+    <div class="hero-buttons">
+      <a class="btn primary" href="assets/Jasmine_Hong_Resume.pdf">View Resume</a>
+      <a class="btn" href="https://github.com/your-username">GitHub</a>
+      <a class="btn" href="https://linkedin.com/in/your-link">LinkedIn</a>
+    </div>
+  </section>
 
-        <h2>Projects</h2>
-        <div class="row"  style="margin-top: 100px;">
+  <!-- ABOUT -->
+  <section class="about">
+    <p>
+      I’m a data science student with experience in data engineering,
+      analytics, and real-world systems. I focus on clarity, impact,
+      and communicating technical ideas effectively.
+    </p>
+    <p class="location">🌊 San Diego · 🎓 UC San Diego</p>
+  </section>
 
-          <div class="col-md-4">
-            <img src="img/Dexteria.png" alt="Dexteria" width="400" class="img-fluid d-block mx-auto">
-            <a href="https://public.tableau.com/views/DexteriaDashboard_17479564954310/DexteriaDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank" class="btn btn-primary btn-lg btn-block mt-3">Dexteria Data Dashboard</a>
-               <a href="https://docs.google.com/presentation/d/1Edih852Ggv8btu69pPQcyWaZh3jACRAnwaYoS7At_cY/edit?usp=sharing" target="_blank" class="btn btn-primary btn-lg btn-block mt-3">Dexteria Client Deliverable  </a>
-          </div>
-         
-          <div class="col-md-4">
-            <img src="img/deloitteimage.png" alt="Deloitte Logo" width="400" class="img-fluid d-block mx-auto">
-            <a href="https://docs.google.com/presentation/d/1A36iDXrtG79IDAO9rLRaqKZemXfdUIy7aQ97j0YVl30/edit?usp=sharing" target="_blank" class="btn btn-primary btn-lg btn-block mt-3">Five Bracket Reward System</a>
-          </div>
-         
-          <div class="col-md-4">
-            <img src="img/beats_img.jpg" alt="Beats" width="400" class="img-fluid d-block mx-auto">
-            <a href="https://docs.google.com/presentation/d/1J0yodxRCZTopVbMrKBWrpP3A26L8b-cbdjwTrNPOiYg/edit?usp=sharing" target="_blank" class="btn btn-primary btn-lg btn-block mt-3">Beats By Dre Consumer Insights Extern</a>
-          </div>
-         
-          <div class="col-md-4">
-            <img src="img/marvel.jpg" alt="Marvel" width="700" class="img-fluid d-block mx-auto">
-            <a href="https://colab.research.google.com/drive/19Z_7DR_L35Qo9Cqy36_ovhrCwcgEpgDD?authuser=1#scrollTo=gK7qpRDOXYaF" target="_blank" class="btn btn-primary btn-lg btn-block mt-3">Marvel Movie Ratings Colab Analysis</a>
-             <a href="https://docs.google.com/presentation/d/1qamE6EYrCxbFHM-5T_UH6P9mKYeWlc84E9taPOPJATI/edit?usp=sharing" target="_blank" class="btn btn-primary btn-lg btn-block mt-3">Marvel Key Insights Deliverable</a>
-          </div>
-         
-        </div class="row mt-4">
-          <div class="col-md-4">
-            <img src="img/recipes.jpg" alt="Recipes Logo" width="600" class="img-fluid d-block mx-auto">
-            <a href="https://jasminehong2392.github.io/jasmineshekar-recipes/" target="_blank" class="btn btn-primary btn-lg btn-block mt-3">Recipe's Analysis & Prediction</a>
-          </div>
-         
-          <div class="col-md-4">
-            <img src="img/trends.jpg" alt="Minimum Wage" width="400" class="img-fluid d-block mx-auto">
-            <a href="https://samuellee77.github.io/minimum-wage-viz/" target="_blank" class="btn btn-primary btn-lg btn-block mt-3">Minimum Wage in the U.S</a>
-          </div>
-         
-        </div>
-      
-     </section>
+  <!-- INTERNSHIPS -->
+  <section id="internships" class="internships">
+    <h2>Internship Experience</h2>
 
+    <div class="card-grid">
 
-     <!-- Resume Section -->
-     <section id="resume">
-         <h1>Resume</h1>
-         <p>Download as PDF:</p>
-         <a href="Resume_HongJasmine.pdf" target="_blank" class="btn btn-primary btn-lg custom-button">JasmineHong_Resume</a>
-     </section>
- 
-     <!-- Contact Section -->
-     <section id="contact">
-         <h1>Contact </h1>
-         <p style="font-size: 20px;">jah041@ucsd.edu</p>
-         <p style="font-size: 20px;">hongljasmine@gmail.com</p>
-         <p style="font-size: 20px;">(858)216-6563</p>
-         <p style="font-size: 20px;">Linkedin:
-          <a href="https://www.linkedin.com/in/hongjasmine/" target="_blank">hongljasmine</a>
-        </p>
-     </section>
+      <div class="card">
+        <h3>Alliant Insurance Services</h3>
+        <span class="role">Data Engineering Intern</span>
 
-     <style>
-         html {
-             scroll-behavior: smooth; 
-         }
-     </style>
- </body>
- </html>
+        <ul>
+          <li>Migrated and validated large-scale datasets across systems</li>
+          <li>Built data quality checks to ensure consistency</li>
+          <li>Worked with enterprise-scale data pipelines</li>
+        </ul>
+
+        <span class="tools">Python · SQL · ETL · Data Validation</span>
+      </div>
+
+      <div class="card">
+        <h3>Prism Data</h3>
+        <span class="role">Data Science Intern</span>
+
+        <ul>
+          <li>Analyzed consumer transaction data for credit insights</li>
+          <li>Engineered behavioral features with interpretability</li>
+          <li>Handled privacy-sensitive financial data</li>
+        </ul>
+
+        <span class="tools">Python · Pandas · EDA · Feature Engineering</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <a href="assets/Jasmine_Hong_Resume.pdf">Resume</a>
+    <a href="https://github.com/your-username">GitHub</a>
+    <a href="https://linkedin.com/in/your-link">LinkedIn</a>
+    <p>© Jasmine Hong</p>
+  </footer>
+
+</body>
+</html>
+
  
